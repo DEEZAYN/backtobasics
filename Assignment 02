@@ -1,0 +1,149 @@
+//exercise A
+console.log("Hello World!")
+
+//exercise B
+console.log("Ce faci?")
+console.log("How are you?")
+console.log("Comment ça va?")
+console.log("Cómo estás?")
+console.log("Wie geht es?")
+console.log("Come stai?")
+console.log("Como vai?")
+console.log("Kakvo pravish?")
+console.log("Co to děláš?")
+console.log("Ti káneis?")
+console.log("Ne yapıyorsun?")
+
+/// excersise C 
+let greeting = "hello"
+console.log(greeting)
+console.log(greeting)
+console.log(greeting)
+
+///excersise D 
+const colors = ("blue", "yellow");
+const colorType = typeof colors;
+console.log(colorType);
+
+/// excersise E 
+const greeting1 = "good morning, hi my name is ";
+const name = "deanna";
+const message = greeting1 + name; 
+console.log(message);
+
+/// excersise F 
+const numberofstudents= 15;
+const numberofmentors= 8;
+const sum=numberofmentors+numberofstudents;
+console.log(sum);
+const message1="the total number is";
+const message2=message1+sum;
+console.log(message2);
+
+/// excersise G 
+//percentage of mentors
+const percentage= (numberofmentors/sum)*100; 
+console.log(percentage); 
+const roundpercentage=Math.round(percentage);
+console.log(roundpercentage);
+const messagepercentage=roundpercentage+"%"
+console.log(messagepercentage);
+
+// percentage of students 
+const percentage1= (numberofmentors/sum)*100; 
+console.log(percentage1); 
+const roundpercentage1=Math.round(percentage1);
+console.log(roundpercentage1);
+const messagepercentage1=roundpercentage1+"%"
+console.log(messagepercentage1);
+
+//excersise H 
+function sumandmultiply(string,string2,number) {
+let sumstring = string + string2;
+let multipliednumber = number * 2;
+return sumstring + multipliednumber; 
+}
+let result = sumandmultiply("hi", "everyone", 5);
+console.log(result); 
+
+// excersise I 
+function birthyear(age) {
+    const currentyear = 2023;
+    const birthyear = currentyear - age;
+    return birthyear;
+}
+let result1=birthyear(23) 
+console.log(result1);
+
+// Module 2 Excersise B 
+function boolchecker(bool) {
+    if (typeof bool === "boolean" ) {
+return " you've given me a bool, thanks!"; 
+}
+conaole.log(boolchecker(true))
+}
+
+
+//exercise c
+
+function numberChecker(num) {   //we define our function called numberCracker and we assign a parameter called num
+    if (num > 20) {  // if statement - if the parameter we assigned earlier is grater than 20
+      return `${num} is greater than 20`;  // it will return the sentance
+    } else if (num === 20) { // if num is not >20 it will pass to the next iteration; here, if num equals 20
+      return `${num} is equal to 20`; //it will return this sentance 
+    } else if (num < 20) {  //if num is not >20 it will pass to the next iteration; here, if num equals 20
+      return `${num} is less than 20`; //it will return this sentance 
+    } else {
+      return `${num} isn't even a number :(`;
+    }
+  }
+
+// Excersise D 
+function mood(a){
+    if(a==="happy") {
+        return "Good job,you're doing great!"; 
+    } else if (a===sad) {
+        return "every cloud has a silver lining"; 
+    } else if (a>0) {
+        return "Beep beep boop";
+    } else {
+        return "I'm sorry, I'm still learning about feelings"
+        }
+        const result3= mood("happy")
+console.log(result3)}
+
+/// Excersise G  
+const apolloCountdownmessage = "all engine running ...LIFT OFF!";
+let countdown= 8; 
+console.log(apolloCountdownmessage);
+
+while (countdown>=0) {
+console.log(countdown)
+}
+
+/// Excersise H 
+function exponential(number) { 
+  return number % === 0;
+  }
+function isEven(number){
+  return number % 2=== 0;
+}
+for (let i =5; i < 2; i++)
+if (isEven(i)) { 
+  const result = exponential(i);
+  console.log('exponential of $(i)} is ${result}');
+}
+
+/// Excersise F
+function checkUsername(username, type){
+  if(type==="admin" || type==="manager"){
+    return "unsername valid";
+  }
+} 
+console.log(checkUsername("Dee","manager"))
+console.log(checkUsername("Roque","admin"))
+console.log(checkUsername("Claudia","something"))
+
+
+
+
